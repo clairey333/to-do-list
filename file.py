@@ -16,6 +16,7 @@ while options == "1" or options == "2" or options == "3":
         for task in tasks:
             print(task)
     if options == "3":
-        removetask = input("which task do you want to remove?")
+        removetask = int(input("which task do you want to remove?"))
+        
     options = input("choose an option:")
 print("goodbye!")
